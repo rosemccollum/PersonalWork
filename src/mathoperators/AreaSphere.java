@@ -9,7 +9,7 @@ final double FRACTION = (4.00/3.00);
 Scanner input = new Scanner(System.in);
 System.out.println("What is the radius of the sphere?");
 radius = input.nextInt();
-System.out.println("The area of the sphere is " + (radius * FRACTION * Math.PI ));
+System.out.println("The area of the sphere is " + (radius * radius * radius * FRACTION * Math.PI ));
 	}
 
 }
