@@ -1,13 +1,12 @@
 package objectprogramming;
 
-public class TestClass {
+public class DogTest {
 
-public  TestClass(){
-}	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	Greeter bob = new Greeter();
-	bob.sayHello();
+Dog spot = new Dog();
+spot.woof();
+spot.grr();
+	}
 
-}
 }
