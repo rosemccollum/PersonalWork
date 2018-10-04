@@ -10,5 +10,8 @@ public Numbers()
 	{
 		System.out.println(num);
 	}
-
+	public void sayNumber2(double num)
+	{
+		System.out.println(num +2);
+	}
 }
