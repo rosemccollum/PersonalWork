@@ -14,4 +14,8 @@ public Numbers()
 	{
 		System.out.println(num +2);
 	}
+	public void saySum(double num, double num2)
+	{
+		System.out.println(num + num2);
+	}
 }
