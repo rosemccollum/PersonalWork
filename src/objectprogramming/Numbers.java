@@ -23,4 +23,9 @@ public Numbers()
 		double answer = num*num;
 		return answer;
 	}
+	public double returnArea(double num, double num1)
+	{
+		double answer = num*num1;
+		return answer;
+	}
 }
