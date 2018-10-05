@@ -6,7 +6,8 @@ public  TestClass(){
 }	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	House painter = new House();
-			painter.doPaint();
+	Numbers squarer = new Numbers();
+			double answer = squarer.returnSquare(5.0);
+			System.out.println(answer);
 }
 }

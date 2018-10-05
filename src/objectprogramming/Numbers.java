@@ -1,7 +1,7 @@
 package objectprogramming;
-
+import java.util.Scanner;
 public class Numbers {
-
+Scanner input = new Scanner(System.in);
 public Numbers()
 {
 	
@@ -17,5 +17,10 @@ public Numbers()
 	public void saySum(double num, double num2)
 	{
 		System.out.println(num + num2);
+	}
+	public double returnSquare(double num)
+	{
+		double answer = num*num;
+		return answer;
 	}
 }
