@@ -6,19 +6,17 @@ public House()
 {
 	
 }
-	public void askLength()
+	public void doPaint()
 	{
+		final double RATE = 1/200.0;
+		final double CONVERSION = 60.0;
 		System.out.println("How long is the wall in feet?");
 		int length = input.nextInt();
-	}
-	public void askWidth()
-	{
 		System.out.println("How wide is the wall in feet?");
 		int width = input.nextInt();
-	}
-	public void sayArea()
-	{
-		int area = length*width
-	}
+		double time = -999.99;
+		time = (length * width) * RATE * CONVERSION;
+		System.out.println("It will take " + time + " minutes to paint the house");
+	} 
 	
-}
+	}
