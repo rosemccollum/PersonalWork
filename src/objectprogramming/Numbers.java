@@ -28,4 +28,8 @@ public Numbers()
 		double answer = num*num1;
 		return answer;
 	}
+	public double returnRoundUp(double num)
+	{
+		return Math.ceil(num);
+	}
 }
