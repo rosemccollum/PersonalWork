@@ -18,4 +18,8 @@ Scanner input = new Scanner(System.in);
 		double time = (length*width*depth)/rate;
 		System.out.println("It will take you " + time + " hours to transport that much sand");
 	}
+	public void fillSandbox2(int length, int depth, int width, int rate, double time)
+	{
+		System.out.println("It will take you " + time + " hours to transport that much sand");
+	}
 }
