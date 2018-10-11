@@ -18,5 +18,14 @@ public House()
 		time = (length * width) * RATE * CONVERSION;
 		System.out.println("It will take " + time + " minutes to paint the house");
 	} 
+	public void plantGarden(int rows)
+	{
+		final int WIDTH = 10;
+		final double RATE = 15.0/2.0;
+		System.out.println("How long is the garden in feet?");
+		int length = input.nextInt();
+		double time = (WIDTH*length)/RATE;
+		System.out.println("It will take " + time + " hours to paint the house");
+	}
 	
 	}
