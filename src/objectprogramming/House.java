@@ -27,5 +27,11 @@ public House()
 		double time = (WIDTH*length)/RATE;
 		System.out.println("It will take " + time + " hours to paint the house");
 	}
+	public void fillPool(int radius, int height)
+	{
+		final double RATE = 300.0;
+		double time = (Math.PI * radius * radius * height)/RATE;
+		System.out.println("It will take " + time + " hours to fill the pool");
+	}
 	
 	}
