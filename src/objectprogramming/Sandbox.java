@@ -22,4 +22,10 @@ Scanner input = new Scanner(System.in);
 	{
 		System.out.println("It will take you " + time + " hours to transport that much sand");
 	}
+	public double fillSandbox3(int length, int depth, int width, int rate)
+	{
+		double time = (length*width*depth)/rate;
+		return time;
+		
+	}
 }
