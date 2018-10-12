@@ -24,8 +24,8 @@ Scanner input = new Scanner(System.in);
 	}
 	public double fillSandbox3(int length, int depth, int width, int rate)
 	{
-		double time = (length*width*depth)/rate;
-		return time;
+		double hours = (length*width*depth)/rate;
+		return hours;
 		
 	}
 }

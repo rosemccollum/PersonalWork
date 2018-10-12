@@ -16,7 +16,7 @@ public  TestClass(){
 		int width = input.nextInt();
 		System.out.println("How many cubic feet of sand can your transport per hour?");
 		int rate = input.nextInt();
-		filler.fillSandbox3(length, depth, width, rate);
-		System.out.println("It will take " + time + " hours to fill the sandbox");
+	
+		System.out.println("It will take " + filler.fillSandbox3(length, depth, width, rate) + " hours to fill the sandbox");
 }
 }
