@@ -6,9 +6,10 @@ public  TestClass(){
 }	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	Circle calculator = new Circle();
+	Worker ken = new Worker();
 	Scanner input = new Scanner(System.in);
-		System.out.println("The area of the circle is " + calculator.getArea() + " inches squared");
-	
+		System.out.println("Your paycheck is " + ken.payCheck() + " dollars a week");
+		ken.changePay(4);
+		System.out.println("Your new hourly pay is " + ken.getNewpay());
 }
 }
