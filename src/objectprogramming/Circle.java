@@ -22,7 +22,7 @@ public double getCircumference()
 }
 public double getArea()
 {
-	return area;
+	return area = Math.PI * radius * radius;
 }
 public void setRadius(double newRadius)
 {
