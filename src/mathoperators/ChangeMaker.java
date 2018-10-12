@@ -15,7 +15,7 @@ Scanner input = new Scanner(System.in);
 System.out.println("What is the amount you are making change for?");
 money = input.nextDouble();
 cents = money*100;
-dollars = cents/100;
+dollars = (int) (cents/100);
 System.out.println(dollars);
 	}
 
