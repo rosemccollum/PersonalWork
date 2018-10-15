@@ -6,11 +6,11 @@ public  TestClass(){
 }	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	Cat tracker = new Cat();
+	RightTriangle triangle = new RightTriangle();
 	Scanner input = new Scanner(System.in);
-		System.out.println("Cat sleeps "+ tracker.sleepMore() + " hours on a weekday.");
-		System.out.println("Cat sleeps " + tracker.sleepLess() + " hours on a weekend.");
-		System.out.println("Cat is " + tracker.catBirthday() + " years old today");
+		System.out.println("The hypotenuse of the right triangle is " + triangle.getHypot());
+		System.out.println("The area of the right triangle is " + triangle.getArea());
+		System.out.println("The perimeter of the right triangle is " + triangle.getPerimeter());
 		
 }
 }
