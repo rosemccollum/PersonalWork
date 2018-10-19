@@ -22,7 +22,7 @@ else
 			System.out.println("You are the CEO"); }
 		else
 		{
-			System.out.println("You are the ownder");
+			System.out.println("You are the owner");
 		}
 	}
 }
