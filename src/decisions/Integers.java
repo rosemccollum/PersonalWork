@@ -37,13 +37,32 @@ for (counter = 1; counter <=number; counter = counter +1)
 	System.out.println(counter + ". Hello");
 }
 */
-System.out.println("What is your favorite number?");
+/* System.out.println("What is your favorite number?");
 int favorite = keyboard.nextInt();
 int counter = 0;
 for (counter = 1; counter <=10; counter = counter + 1)
 {
 	System.out.println(favorite + ". Hello");
 }
+*/
+/*int counter = 0;
+int sum = 0;
+for (counter = 1; counter <=10; counter++)
+{
+	sum += counter;
+}
+System.out.println(sum);
+*/
+int counter = 0;
+int sum = 0;
+for (counter = 1; counter <=5; counter = counter + 1)
+{
+	System.out.println("Give me a number");
+	int num = keyboard.nextInt();
+	sum += num;
+}
+System.out.println(sum);
+
 	}
 
 }
