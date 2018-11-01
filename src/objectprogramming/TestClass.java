@@ -14,5 +14,7 @@ public  TestClass(){
 		Migos.setAccount(123457.0);
 		Migos.setBalance(12345678.0);
 		
+		Migos.getAccount();
+		
 }
 }

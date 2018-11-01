@@ -33,6 +33,11 @@ public class IsoscelesTriangle {
 		return leg;
 	}
 	
+	public void setLeg(double xLeg) {
+		xLeg = leg;
+		return;
+	}
+	
 	
 	
 }
