@@ -44,7 +44,7 @@ public class Nesting {
 		System.out.println(largest);
 		*/
 	
-		Scanner new = input Scanner (System.in);
+	 /*	Scanner new = input Scanner (System.in);
 		int total = 0;
 	int largest = 0;
 		for (counter = 0; counter <3; counter++) {
@@ -62,6 +62,7 @@ public class Nesting {
 		System.out.println(total);
 		System.out.println(largest);
 	}
+	*/
 	}
 
 }
