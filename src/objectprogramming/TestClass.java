@@ -6,11 +6,15 @@ public  TestClass(){
 }	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	RightTriangle triangle = new RightTriangle();
-	Scanner input = new Scanner(System.in);
-		System.out.println("The hypotenuse of the right triangle is " + triangle.getHypot());
-		System.out.println("The area of the right triangle is " + triangle.getArea());
-		System.out.println("The perimeter of the right triangle is " + triangle.getPerimeter());
+		BankAccount TwentyOneSavage = new BankAccount();
+		BankAccount Migos = new BankAccount();
+		
+		TwentyOneSavage.setAccount(123456.0);
+		TwentyOneSavage.setBalance(390987654.0);
+		Migos.setAccount(123457.0);
+		Migos.setBalance(12345678.0);
+		
+		Migos.getAccount();
 		
 }
 }

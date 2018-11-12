@@ -9,7 +9,12 @@ public Circle()
 	radius = 4;
 }
 public Circle(double newRadius)
-{
+{ 
+	if (radius <= 0) // this is an unacceptable value 
+	{
+		radius=10; // assign it an acceptable value (not the best way to deal with this but baby steps)
+		// this makes is so your radius value will always be acceptable
+	}
 	radius = newRadius;
 }
 public double returnRadius()
