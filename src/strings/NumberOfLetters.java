@@ -10,8 +10,7 @@ public class NumberOfLetters {
 		System.out.println("Type a sentence");
 		String sentence = input.nextLine();
 		int vowels = 0;
-		int length(); 
-		for (int counter = 0; counter < int length(sentence); counter++)
+		for (int counter = 0; counter < sentence.length(); counter++)
 		if ((sentence.contains("a") == true)) {
 			vowels++;
 		}
