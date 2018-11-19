@@ -10,26 +10,30 @@ public class NumberOfLetters {
 		System.out.println("Type a sentence");
 		String sentence = input.nextLine();
 		int vowels = 0;
-		for (int counter = 0; counter < sentence.length(); counter++)
-		if ((sentence.contains("a") == true)) {
+		for (int counter = 0; counter < sentence.length(); counter++) {
+			if (sentence.charAt(counter) == 'a') {
+				vowels++;
+			}
+			if (sentence.charAt(counter) == 'e') {
 			vowels++;
-		}
-		if ((sentence.contains("e") == true)) {
-			vowels++;
-		}
-		if ((sentence.contains("i") == true)) {
-			vowels++;
-		}
-		if ((sentence.contains("o") == true)) {
-			vowels++;
-		}
-		if ((sentence.contains("u") == true)) {
-			vowels++;
-		}
-		if ((sentence.contains("y") == true)) {
-			vowels++;
+			}
+			if (sentence.charAt(counter) == 'i' ) {
+				vowels++;
+			}
+			if (sentence.charAt(counter) == 'o' ) {
+				vowels++;
+			}
+			if (sentence.charAt(counter) == 'u' ) {
+				vowels++;
+			}
+			if (sentence.charAt(counter) == 'y' ) {
+				vowels++;
+			}
 		}
 		System.out.println(vowels);
+		int constantent = (sentence.length() - vowels);
+		System.out.println(constantent);
+		
 	}
 
 }
