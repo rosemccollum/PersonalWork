@@ -25,6 +25,17 @@ public class RollingDice {
 			}
 			System.out.println();
 		}
+		System.out.println("Which value would you like to find in the rolls?");
+		int find = input.nextInt();
+		int value = 0;
+		for (int columns = 0; columns < results[0].length; columns++) {
+			for (int rows = 0; rows < results.length; rows++) {
+				if (results[rows][columns] == find) {
+					value++;
+				}
+			}
+		}
+		System.out.println(value);
 	}
 
 }
