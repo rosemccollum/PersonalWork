@@ -10,8 +10,9 @@ public class Friends {
 		System.out.println("How many friends do you have?");
 		int friends = input.nextInt();
 		String[] names = new String[friends];
+		System.out.println("What is your friends name?"); 
+		
 		for (int i = 0; i < friends; i++) {
-			System.out.println("What is your friends name?");
 			names[i] = input.nextLine();
 		}
 		int largest = 0;
