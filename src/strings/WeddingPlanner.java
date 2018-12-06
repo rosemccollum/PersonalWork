@@ -2,7 +2,7 @@ package strings;
 
 import java.util.Scanner;
 
-public class WeddingPlanner {
+public class WeddingPlanner {	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
