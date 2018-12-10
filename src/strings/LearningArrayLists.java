@@ -46,7 +46,8 @@ public class LearningArrayLists {
 		names.add(new String("Kenny"));
 		names.remove(0);
 		names.remove(names.size() - 1);
-		// System.out.println(names);
+		System.out.println(names);
 	}
+}
 
 		
