@@ -22,10 +22,23 @@ public class Algebra {
 			input.nextLine();
 			algebra.add(new Student(name, score));
 		}
-		for (int i = 0; i < students; i++) {
-			System.out.println(algebra.get(i).returnName());
-			System.out.println(algebra.get(i).returnScore());
+		for (int j = 0; j < students; j++) {
+			System.out.println(algebra.get(j).returnName());
+			System.out.println(algebra.get(j).returnScore());
 		}
+		System.out.println("Type a name: ");
+		String out = input.nextLine();
+		for (int h = algebra.size()-1; h > 0 ; h--) {
+			String temp = algebra.get(h).returnName();
+			if (temp.compareToIgnoreCase(out) == 0) {
+				algebra.remove(h);
+			}
+		}
+		System.out.println("Here are remaining names:");
+			for (int i = algebra.size()-1; i > 0 ; i--) {
+				System.out.println(algebra.get(i).returnName());
+				algebra.remove(i);
+			}
 
 	}
 
