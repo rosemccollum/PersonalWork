@@ -28,7 +28,14 @@ public class Employee {
 	}
 
 	public double calcPay(int week) {
-		return hoursWorked[week];
+		if (week < 1) {
+			System.out.println("Please enter a valid number");
+		}
+		if (week > 52) {
+			System.out.println("Please enter a valid number");
+		}
+		double pay = hoursWorked[week] * rate;
+		return pay;
 	}
 
 }

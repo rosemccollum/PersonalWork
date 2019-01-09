@@ -1,18 +1,15 @@
 package designingclasses;
-
+import java.util.Scanner;
 public class TestClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		HardDrive bob = new HardDrive ("hi" , 32.0 , 24.0);
-		bob.addFile(42.4);
-		bob.addFile(312.3);
-		bob.addFile(42.32);
-		bob.addFile(423.3);
-		bob.deleteFile(2);
-		System.out.println(bob.isEmpty());
-		System.out.println(bob.isFull());
-		System.out.println(bob.returnSize());
+		Scanner input = new Scanner(System.in);
+		Employee bob = new Employee();
+		bob.modifyRate(3.2);
+		System.out.println("Enter a week");
+		int week = input.nextInt();
+		System.out.println(bob.calcPay(week));
 		
 	}
 
