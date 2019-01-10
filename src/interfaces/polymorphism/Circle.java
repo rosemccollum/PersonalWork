@@ -32,6 +32,7 @@ public class Circle implements Shape {
 	public double perimeter() {
 		return radius * 2 * Math.PI;
 	}
+
 	public String toString() {
 		return ("This is a circle object with radius of " + radius);
 	}

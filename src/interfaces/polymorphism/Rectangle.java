@@ -17,11 +17,15 @@ public class Rectangle implements Shape {
 		return width;
 	}
 
-	public double returnArea() {
+	public double area() {
 		double area = length * width;
 		return area;
 	}
+
 	public String toString() {
-		return("Rectangle length: " + length + " width: " + width);
+		return ("Rectangle length: " + length + " width: " + width);
+	}
+	public double perimeter() {
+		return (2*length)+(2*width);
 	}
 }
