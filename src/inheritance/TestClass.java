@@ -30,6 +30,7 @@ public class TestClass {
 			}
 		}
 		System.out.println("Largest area: ");
+		System.out.println(thingy.toString());
 	}
 
 }

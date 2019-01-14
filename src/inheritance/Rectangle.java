@@ -10,4 +10,7 @@ public class Rectangle extends Parallelogram implements Geo{
 	public double getArea() {
 		return getSide1() * getSide2();
 	}
+	public String toString() {
+		return ("Rectangle: " + super.toString());
+	}
 }

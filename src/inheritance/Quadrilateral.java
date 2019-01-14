@@ -44,4 +44,10 @@ public class Quadrilateral {
 	public double perimeter() {
 		return s1+s2+s3+s4;
 	}
+	public String toString() {
+		return ("Quadrilateral, Side 1: " + s1 + "Side2: " + s2 + "Side3: "+ s3 + "Side4: " + s4);
+	}
+	public Object clone() {
+		return new Quadrilateral(s1,s2,s3,s4);
+	}
 }

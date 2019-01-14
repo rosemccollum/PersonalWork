@@ -13,5 +13,7 @@ public class Square extends Rectangle {
 	public double perimeter() {
 		return getSide1() * 4;
 	}
-
+	public String toString() {
+		return ("Square: " + super.toString());
+	}
 }

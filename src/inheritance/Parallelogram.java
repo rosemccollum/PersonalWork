@@ -16,5 +16,10 @@ public class Parallelogram extends Quadrilateral {
 	public double perimeter() {
 		return (getSide1() + getSide2() + getSide3() + getSide4());
 	}
-	
+	public String toString() {
+		return ("Parallelogram, height: " + height + " " + super.toString());
+	}
+	public Object clone() {
+		return new Parallelogram(super.getSide1(), super.getSide2(),super.getSide3(),super.getSide4(), height);
+	}
 }
